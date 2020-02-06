@@ -3,4 +3,32 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+/* navigation bar styles start */
+  nav{
+    background-color: gold;
+    width: 100%;
+    padding: 20px;
+  }
+  .mynav {
+    text-align: center;
+  }
+    
+  .mynav > li {
+    list-style: none;
+    display: inline;    
+  }
+    
+  .mynav > li > a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+  }
+  .mynav > li > a:hover {
+    background-color: blueviolet;
+    padding: 21px;
+    color: white;
+    }
+/* navigation bar styles end */
+/* landing page */
+    
+    
