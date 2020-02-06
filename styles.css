@@ -98,7 +98,17 @@
   font-size: 30px;
   padding: 20px;
   }
-  
+  .container > button {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    overflow: none;
+    font-size: 16px;
+    }
   /*project styling ends*/
   
 
