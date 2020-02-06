@@ -27,7 +27,6 @@
     background-color: blueviolet;
     padding: 21px;
     color: white;
-    width: auto;
   }
 /* navigation bar styles end */
 /* landing page */
@@ -55,7 +54,39 @@
     border-radius: 30%;
   }
 /* landing page end */
-    
+/* about section styling starts */
+.abt {
+  font-size: 30px;
+  background-image: url("https://bit.ly/2ObfkdC");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  }
+  #mission,
+  #vision,
+  #skills {
+  padding: 20px;
+  text-align: center;
+  }
+  /*about section ends*/
+  
+  .column{
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .text{
+    text-align: center;
+  }
+  .project{
+    margin-top:15px;
+  }
   
   
     
