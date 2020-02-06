@@ -69,13 +69,46 @@
   text-align: center;
   }
   /*about section ends*/
+/*project styling starts*/
+.row {
+  display: flex;
+  }
+  .column {
+  width: 50%;
+  padding: 5%;
+  }
+  .project {
+  padding: 0 10% 2% 10%;
+  background-color:
+  }
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  }
   
-  .column{
+  .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+  padding: 20px 16px;
+  }
+  .project > h1 {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  }
+  
+  /*project styling ends*/
+  
+
+
+  /* .column{
     width: 50%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
-  }
+  } */
   
   div.container {
     text-align: center;
