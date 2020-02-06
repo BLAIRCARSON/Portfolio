@@ -5,7 +5,7 @@
   }
 /* navigation bar styles start */
   nav{
-    background-color: gold;
+    background-color: green;
     width: 100%;
     padding: 20px;
   }
@@ -28,12 +28,12 @@
     padding: 21px;
     color: white;
     width: auto;
-    }
+  }
 /* navigation bar styles end */
 /* landing page */
   .toppage {
     height: 95vh;
-    background-image: url('blair.jpeg');
+    background-image: url('webmaster.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     top: 0;
@@ -41,6 +41,22 @@
     left: 0;
     right: 0;
   }
+
+  .toptext {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+  }
+  .toptext > img {
+    max-width: 400px;
+    border-radius: 30%;
+  }
+/* landing page end */
+    
+  
   
     
     
