@@ -10,7 +10,7 @@
     padding: 20px;
   }
   .mynav {
-    text-align: center;
+    text-align: right;
   }
     
   .mynav > li {
@@ -21,7 +21,7 @@
   .mynav > li > a {
     text-decoration: none;
     padding: 45px;
-    font-size: 20px;
+    font-size: 30px;
   }
   .mynav > li > a:hover {
     background-color: blueviolet;
